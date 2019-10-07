@@ -1,0 +1,162 @@
+*::selection{
+    color: #fff;
+    background-color: rgb(12, 165, 12);
+}
+
+p,
+h2,
+h3,
+h4 {
+    text-transform: capitalize;
+}
+
+header .navbar{
+    background-color: #5E4485;
+}
+
+header img{
+    width: 50px;
+    height: 50px;
+}
+
+header .navbar-collapse .navbar-nav li a {
+    color: #d5d5d5;
+    font-size: 18px;
+}
+
+#stays h3{
+    margin-top: 7%;
+    margin-bottom: 1%;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+#stays p{
+    margin-left: 4%;
+    margin-right: 4%;
+    color: gray;
+    font-size: 20px;
+}
+
+#stays .container{
+    margin-top: 4%;
+}
+
+#stays .container .col-sm-3 {
+    margin-bottom: 1%;
+}
+
+#stays .container .col-sm-3 img {
+    border: 3px solid #d5d5d5;
+    height: 400px !important;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+#stays .container .col-sm-3:nth-child(even){
+    margin-top: 20px !important;
+}
+
+#stays .container .col-sm-3 img:hover{
+    transform: scale(1.02);
+    -webkit-transform: scale(1.02);
+    -moz-transform: scale(1.02);
+    -ms-transform: scale(1.02);
+    -o-transform: scale(1.02);
+}
+
+#stays #naltar-valley .container img{
+    width: 100%;
+    height: 100%;
+}
+
+footer {
+    margin-top: 8%;
+    width: 100%;
+    padding-top: 4%;
+    color: #fff;
+    background-color: #5E4485;
+}
+
+footer .row{
+    margin-bottom: 30px;
+}
+
+footer h3{
+    font-size: 30px;
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
+
+footer h4{
+    color: #d5d5d5;
+    font-size: 20px;
+    font-weight: 100;
+    padding-bottom: 10px;
+}
+
+footer p{
+    font-size: 17px;
+    font-weight: 300;
+    color: #d5d5d5;
+}
+
+footer img{
+    margin-top: 5%;
+    width: 100%;
+    height: 250px;
+}
+
+.fa {
+    padding: 5px;
+    margin-top: 10px;
+    margin-right: 20px;
+    font-size: 30px;
+    color: #fff;
+}
+
+.fa:hover {
+    color: white;
+    background-color: green;
+    text-decoration: none;
+}
+
+#line-break{
+    margin: 0 auto;
+    height: 1px;
+    width: 700px;
+    background-color: #d5d5d5;
+    border-radius: 55px;
+    -webkit-border-radius: 55px;
+    -moz-border-radius: 55px;
+    -ms-border-radius: 55px;
+    -o-border-radius: 55px;
+}
+
+footer #copyright p{
+    font-size: 18px;
+    font-weight: 200;
+    color: #d5d5d5;
+    text-align: center;
+    margin-bottom: 0;
+    padding: 20px 0;
+}
+
+@media(max-width: 600px) {
+    .carousel-caption {
+        display: none;
+    }
+
+    #icon {
+        max-width: 150px;
+    }
+
+    h2 {
+        font-size: 1.7em;
+    }
+}
